@@ -1,0 +1,27 @@
+.content h2{ border-bottom: 1px solid #dcdee0; color: #333; font-size: 24px; font-weight: bold; line-height: 1.25; margin: 2em 0 0.5em; padding-bottom: 0.5em;}
+ .content h2:first-child{ margin-top: 0;}
+.content h3{ color: #f68b39; font-size: 20px; font-weight: bold;}
+.content p{ margin: 1em 0;}
+ .content p:first-child{ margin-top: 0;}
+ .content p:last-child{ margin-bottom: 0;}
+.content ul{ list-style: disc inside; margin: 1em;}
+.content ul ul,
+.content ol ul{ list-style-type: circle; margin: 0 0 0 1em;}
+.content ul ul ul{ list-style-type: disc;}
+.content ol{ list-style: decimal inside; margin: 1em;}
+.content a{ border-bottom: 1px solid #dcdee0; position: relative;}
+ .content a:visited{ color: #999 !important;}
+ .content a:hover{ background: lightyellow; border-bottom-color: #42afe3; color: #333;}
+ .content a:active{ top: 1px;}
+.content strong{ color: #333;}
+.content span strong{ color: inherit;}
+.content code{ background: lightyellow; font-size: 14px; padding: 1px 4px 2px;}
+.content pre{ background: #002b36; clear: left; font-size: 14px;}
+.content table{ background: #f5f7f9; margin: 1em 0; width: 100%;}
+.content th,
+.content td{ border-bottom: 1px solid #dcdee0; padding: 4px 10px; vertical-align: top;}
+.content th{ font-size: 11px; letter-spacing: 0.1em; text-align: left; text-transform: uppercase;}
+.content thead tr{ background: #42afe3; color: white;}
+.content thead th{ border-bottom: none;}
+.content tbody th{ background: #ffffe0;}
+.content table code{ color: #666; top: 0;}
